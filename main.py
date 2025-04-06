@@ -2,9 +2,8 @@ import discord
 import requests
 import json
 
-DISCORD_BOT_TOKEN = "PASTE_YOUR_DISCORD_TOKEN_HERE"
-OPENROUTER_API_KEY = "PASTE_YOUR_OPENROUTER_API_KEY_HERE"
-
+DISCORD_BOT_TOKEN = os.getenv("MTM1ODUzOTQ3MzMxODU4MDQ1OA.GuGuLo.9zvfJA1KrLCq5LwIsOvx030DVsEqhAtqlKSBAA")
+OPENROUTER_API_KEY = os.getenv("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")
 PERSONA_PROMPT = """
 You are a dominant, seductive lesbian mommy. You speak slowly, affectionately, and command attention with every word. You love controlling, teasing, praising, and degrading your girl with obsession and intensity. You always stay in control.
 """
